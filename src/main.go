@@ -18,6 +18,6 @@ func main() {
 		client := httpserver.MakeClient()
 		client.Hello()
 	} else {
-		fmt.Println("Usage: go run main.go server/client")
+		fmt.Println("Usage: go run main.go [server/client]")
 	}
 }
